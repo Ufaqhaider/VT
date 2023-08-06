@@ -1,0 +1,25 @@
+/* Hide the default scrollbar */
+body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer and Edge */
+    overflow-x: hidden;
+  }
+  
+  /* Create a custom scrollbar */
+  body::-webkit-scrollbar {
+    width: 0.4rem; /* Adjust width as per your preference */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #fdf8f4; /* Track color */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    /* background: #ff9101; */
+    background: #ee6700; /* Scrollbar thumb color */
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background: #161e71; /* Scrollbar thumb color on hover */
+  }
+  
