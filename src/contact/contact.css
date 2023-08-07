@@ -162,7 +162,7 @@ button {
     box-shadow: 0px 14px 8px rgba(134, 151, 168, 0.1);
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-    padding: 24px;
+    padding: 30px;
     border-radius: 15px;
 }
 
@@ -290,11 +290,19 @@ i {
 
 .lni {
     display: inline-block;
-    font: normal normal normal 1em/1 'LineIcons';
+    /* font: normal normal normal 1em/1 'LineIcons';
     speak: none;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale; */
+    max-width: 30%;
+    background-color: #eee;
+    border-radius: 50%;
+    margin-bottom: 5%;
+
+}
+ lni-envelope{
+    height: 20px;
 }
 
 .contactTypes .flexContainer .typeBox i {
@@ -306,9 +314,9 @@ i {
     margin-bottom: 25px;
 }
 
-.contactTypes .flexContainer .typeBox .lni-envelope {
+.contactTypes .flexContainer .typeBox  {
     color: #82c690;
-    background-color: #F3F9F4;
+    /* background-color: #F3F9F4; */
 }
 
 .lni-envelope:before {
