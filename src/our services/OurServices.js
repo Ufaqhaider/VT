@@ -12,7 +12,7 @@ const OurServices = () => {
         <div class="service-card text-xs  row h-28 mb-5">
           <div
             data-aos="fade-down-right"
-            data-aos-delay="1000"
+            data-aos-delay="500"
             class="fullcard col-12 col-sm-6 col-md-3 m-auto"
           >
             {/* <!-- card starts here --> */}
@@ -38,7 +38,7 @@ const OurServices = () => {
           <div
           
             data-aos="fade-down-right"
-            data-aos-delay="1000"
+            data-aos-delay="500"
             class="fullcard zome col-12 col-sm-6 col-md-3 m-auto"
           >
             {/* <!-- card starts here --> */}
@@ -63,7 +63,7 @@ const OurServices = () => {
           {/* <!-- col ends here --> */}
           <div
             data-aos="fade-down-right"
-            data-aos-delay="1000"
+            data-aos-delay="500"
             class="fullcard  col-12 col-sm-6 col-md-3 m-auto"
           >
             {/* <!-- card starts here --> */}
@@ -88,7 +88,7 @@ const OurServices = () => {
           {/* <!-- col ends here --> */}
           <div
             data-aos="fade-down-right"
-            data-aos-delay="1000"
+            data-aos-delay="500"
             class=" fullcard col-12 col-sm-6 col-md-3 m-auto"
           >
             {/* <!-- card starts here --> */}
